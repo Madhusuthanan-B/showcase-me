@@ -10,18 +10,14 @@
   <meta name="keywords"
     content="Front-end Architect, AI Evangelist, Angular Expert, JavaScript Developer, Technical Leader">
   <meta name="author" content="Madhusuthanan B">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <link rel="stylesheet" href="./src/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
-  <link rel="preload" href="./src/images/madhu.png" as="image">
 
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' cdnjs.cloudflare.com 'unsafe-inline'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: blob: https:; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; font-src cdnjs.cloudflare.com;">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <link rel="preload" as="font"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff2" crossorigin>
@@ -34,6 +30,8 @@
     }
   </style>
   <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -65,8 +63,7 @@
           <p>Accomplished professional with expertise in Angular, JavaScript, and system modernization</p>
         </div>
         <div class="hero-image">
-          <img src="./src/images/madhu.png" alt="Front-end Architect & AI Evangelist" loading="lazy" width="400"
-            height="400">
+          <img alt="Front-end Architect & AI Evangelist" loading="lazy" width="400" height="400">
         </div>
       </div>
     </section>
@@ -237,7 +234,7 @@
     </div>
   </footer>
 
-  <script src="./src/main.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
